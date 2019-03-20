@@ -1,0 +1,64 @@
+.style {
+  border: 1px solid #66f7f6;
+  background-color: #322826;
+  box-sizing: border-box;
+}
+
+.stylemain {
+  border: 1px solid #66f7f6;
+  background-color: lightcyan;
+  box-sizing: border-box;
+}
+
+.contenedorgrid {
+  display: grid;
+  margin: 0 auto;
+  width: 90vw;
+  min-height: 100vh;
+  grid-template-columns: 30vw auto;
+  box-sizing: border-box;
+  /*justify-content: center;
+  align-content:center; */
+}
+.contenedorgrid header, .contenedorgrid footer {
+  grid-column: 1/3;
+  padding: 1em;
+  min-height: 25vh;
+}
+.contenedorgrid aside {
+  grid-column: 1/2;
+  padding: 1em;
+  min-height: 50vh;
+}
+.contenedorgrid main {
+  grid-column: 2/3;
+  padding: 1em;
+  min-height: 50vh;
+}
+@media (max-width: 600px) {
+  .contenedorgrid aside {
+    grid-column: 1/3;
+    padding: 1em;
+  }
+  .contenedorgrid main {
+    grid-column: 1/3;
+    padding: 1em;
+  }
+}
+.contenedorgrid .imagencabecera {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+.contenedorgrid .imagenlateral {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+.contenedorgrid .imagenfooter {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=EstilosRepasoGrid.css.map */
