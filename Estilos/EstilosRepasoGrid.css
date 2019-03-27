@@ -54,11 +54,18 @@
   object-fit: scale-down;
   width: 100%;
   height: 100%;
+  height: 85%;
 }
 .contenedorgrid .imagenfooter {
   object-fit: scale-down;
   width: 100%;
   height: 100%;
+}
+.contenedorgrid .imagenenlace {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+  height: 15%;
 }
 
 /*# sourceMappingURL=EstilosRepasoGrid.css.map */

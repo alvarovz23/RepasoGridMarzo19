@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
 }
+
 .style {
     border: 1px solid rgb(102,247,246);
     background-color: #322826;
@@ -59,9 +60,14 @@
     }
     .imagenlateral {
         @include adaptarimagen();
+        height: 85%;
     }
     .imagenfooter {
         @include adaptarimagen();
+    }
+    .imagenenlace {
+        @include adaptarimagen();
+        height: 15%;
     }
 }
 
